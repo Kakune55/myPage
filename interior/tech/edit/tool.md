@@ -47,10 +47,11 @@ git version 2.45.1.windows.1
 
 ## 压制
 上传的媒体素材需要压制：
+### 图片WebP压制
 下面提供几种压制方法：
 1. 在线转换：[在线工具](https://onlineconvertfree.com/zh/convert-format/png-to-webp/)
 2. 使用ffmpeg：```ffmpeg -i <input> -q 75 <output>```
 3. 使用其他工具
 
 ## Git仓库
-暂无
+待补充
