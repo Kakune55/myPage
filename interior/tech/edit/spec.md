@@ -28,6 +28,7 @@ Docsify 是一个轻量级的静态网站生成器，使用 Markdown 格式编�
   - 访问URL为```/interior/tech/edit/```
 - _sidebar.md：侧边栏导航文件，用于快速定位文档,没有的话则继承上级目录
 - _navbar.md：顶部导航文件，用于快速定位文档,没有的话则继承上级目录
+- _sidebar.md 和 _navbar.md 均使用Markdown语法的无序列表
 
 ## 附件管理
 附件目录，用于管理附件，如图片、视频等，默认为```/media```

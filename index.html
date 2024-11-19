@@ -11,10 +11,22 @@
   <script>
     window.$docsify = {
       //...
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+
+      formatUpdated: function(time) {
+        // ...
+
+        return time;
+      },
+
       loadNavbar: true,
       loadSidebar: true,
       subMaxLevel: 3,
-      auto2top: true
+      auto2top: true,
+      themeColor: '#3F51B5',
+      logo: '/logo.png',
+      name: 'CAC Docs (Bate)',
+
     }
   </script>
   <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/docsify.min.js"></script>
